@@ -1,0 +1,2 @@
+# zoobox
+Debian Openbox Project
