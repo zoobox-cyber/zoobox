@@ -1,0 +1,58 @@
+#!/bin/bash
+
+# Function to get the window ID for a Terminator window
+get_window_id() {
+    xdotool search --onlyvisible --class terminator | tail -n 1
+}
+
+# Function to get the window ID for Firefox
+get_firefox_id() {
+    xdotool search --onlyvisible --class firefox | tail -n 1
+}
+
+
+
+# CLOCK
+terminator --execute bash -c "watch -n 1 acpi; exec bash" &
+sleep 0.5
+first_id=$(get_window_id)
+xdotool windowfocus $first_id
+sleep 0.1
+xdotool windowsize $first_id 350 70
+xdotool windowmove $first_id 1550 0
+
+# CALENDAR
+terminator --execute bash -c "/home/ombelle_z/.config/openbox/cal-script.sh; exec bash" &
+sleep 0.5
+second_id=$(get_window_id)
+xdotool windowfocus $second_id
+sleep 0.1
+xdotool windowsize $second_id 200 200
+xdotool windowmove $second_id 1700 95
+xdotool key --window $second_id super+s
+
+
+# INDEX
+pcmanfm &
+sleep 0.2
+xdotool search --onlyvisible --class pcmanfm windowmove 1550 113 windowsize 350 600
+
+# BROWSER
+#firefox &
+#sleep 0.1
+#firefox_id=$(get_firefox_id)
+#xdotool windowfocus $firefox_id
+#sleep 0.1
+#xdotool windowsize $firefox_id 1700 1055
+#xdotool windowmove $firefox_id 0 0
+
+# TERMINAL
+terminator &
+sleep 0.5 
+third_id=$(get_window_id)
+xdotool windowfocus $third_id
+sleep 0.1
+xdotool windowsize $third_id 800 30
+xdotool windowmove $third_id 1100 1020
+
+
