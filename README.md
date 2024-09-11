@@ -36,7 +36,12 @@
 #     Apply changes.
 #     Close the app.
 #
-# Reboot to see changes.
+#   Setting lightdm
+#     Use lightdm-gtk-greeter-settings
+#       Select Crux as the theme and HighContrast for Icons
+#       Set lightdm as needed
+#
+# Reboot to see all changes.
 # 
 # 
 # 

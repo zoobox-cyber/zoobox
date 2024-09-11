@@ -26,6 +26,7 @@ echo "Setting up session settings..."
 sudo cp zoobox/boot/grub/black.jpg /boot/grub/
 sudo update-grub
 sudo apt install lightdm
+sudo apt install lightdm-gtk-greeter-settings
 sudo cp -r zoobox/etc/lightdm /etc/lightdm
 sudo cp zoobox/usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
 	
