@@ -10,7 +10,7 @@ sudo apt install -y git curl terminator openbox htop qt5ct lxappearance lightdm 
 
 # Install utilities
 echo "Installing core dependencies..."
-sudo apt install -y pdflatex yt-dlp audacity kdenlive vlc
+sudo apt install -y yt-dlp audacity kdenlive vlc
 
 # Clone your repository (if not already done)
 REPO_URL="https://github.com/zoobox-cyber/zoobox.git"
@@ -28,13 +28,13 @@ fi
 
 # Copy configuration files
 echo "Setting up Openbox configurations..."
-cp -r $REPO_DIR/home/.config/* ~/.configi
+cp -r $REPO_DIR/home/.config/* ~/.config/
   # Openbox theme
-cp -r $REPO_DIR/home/.themes/* ~/.themes
+cp -r $REPO_DIR/home/.themes/* ~/.themes/
   # GTK theme
-cp -r $REPO_DIR/usr/share/themes/Crux /usr/share/themes
+cp -r $REPO_DIR/usr/share/themes/Crux /usr/share/themes/
   # Background
-cp -r $REPO_DIR/boot/grub/black.jpg /boot/grub
+cp -r $REPO_DIR/boot/grub/black.jpg /boot/grub/
 
 # Final message
 echo "Setup completed. Please reboot to apply all changes."
