@@ -28,9 +28,9 @@ fi
 
 # Copy configuration files
 echo "Setting up Openbox configurations..."
-sudo cp -r $REPO_DIR/home/.config/* ~/.config/
+cp -r $REPO_DIR/home/.config/* ~/.config/
   # Openbox theme
-sudo cp -r $REPO_DIR/home/.themes/* ~/.themes/
+cp -r $REPO_DIR/home/.themes/* ~/.themes/
   # GTK theme
 sudo cp -r $REPO_DIR/usr/share/themes/Crux /usr/share/themes/
   # Background
