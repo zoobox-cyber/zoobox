@@ -10,7 +10,7 @@ sudo apt install -y git vim pcmanfm terminator openbox lxappearance xdotool
 
 # Install utilities
 # echo "Installing utilities..."
-# sudo apt install -y lightdm audacity kdenlive vlc curl htop 
+# sudo apt install -y audacity kdenlive vlc curl htop 
 
 # Copy configuration files
 echo "Setting up base configuration..."
@@ -20,13 +20,17 @@ git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.themes
 cp -r zoobox/home/.themes/Penumbra ~/.themes/
   # GTK theme
 sudo cp -r zoobox/usr/share/themes/Crux /usr/share/themes/
-  # Session setup
+
+# Session setup
+echo "Setting up session settings..."
 sudo cp zoobox/boot/grub/black.jpg /boot/grub/
 sudo update-grub
-# sudo cp zoobox/usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
+sudo apt install lightdm
+sudo cp -r zoobox/etc/lightdm /etc/lightdm
+sudo cp zoobox/usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
 	
 
 # Final message
-echo "Installation completed. Please follow the next steps in the README file to finish set up."
+echo "Installation completed. Please follow the next steps in the README file to finish the set up."
 
 

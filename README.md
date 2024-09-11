@@ -8,7 +8,7 @@
 #      the screen.
 #      Toggle the dark mode
 #      Once this is is done we can proceed.
-#      This will prevent issues downstream
+#      This will prevent issues downstream.
 #   
 #   Getting the files for the installation of zoobox
 #     sudo apt update
@@ -20,7 +20,7 @@
 #     zoobox/setup.sh
 # 
 #   User input necessary
-#     After a few minutes, the installation of
+#     At the end of the installation process, installing
 #     lightdm triggers an event requiring user input.
 #     On the first popup window, select 'OK' by pressing ENTER.
 #     On the second popup window, select lightdm.
@@ -30,7 +30,9 @@
 #   Setting Crux as the GTK theme
 #     In a terminal run the following
 #       lxappearance   
-#     A window will open. Select Crux in the left side bar
+#     A window will open. 
+#     Select Crux in the left side bar
+#     Select HighContrast in the Icons tab
 #     Apply changes.
 #     Close the app.
 #
