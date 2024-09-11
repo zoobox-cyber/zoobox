@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Clone your repository (if not already done)
+REPO_URL="https://github.com/zoobox-cyber/zoobox.git"
+REPO_DIR="$USER_HOME/zoobox"
+
+
 # Update system packages
 echo "Updating system packages..."
 sudo apt update -y
