@@ -21,6 +21,14 @@
 #     In a terminal run the following
 #       lxappearance   
 #     A window will open. Select Crux in the left side bar
+#     Apply changes.
+#     Close the app.
+#
+#   Setting Penumbra as the Openbox theme
+#     In a terminal run the following
+#       obconf   
+#     A window will open. Select Penumbra in the scrolling menu
+#     Apply changes.
 #     close the app.
 # 
 # Reboot to see changes.
