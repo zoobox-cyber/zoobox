@@ -6,11 +6,11 @@ sudo apt update -y
 
 # Install core dependencies
 echo "Installing core dependencies..."
-sudo apt install -y git vim pcmanfm terminator openbox lxappearance xdotool ncal
+sudo apt install -y git vim pcmanfm terminator openbox lxappearance xdotool ncal acpi neofetch
 
 # Install utilities
 # echo "Installing utilities..."
-# sudo apt install -y audacity kdenlive vlc curl htop 
+# sudo apt install -y audacity kdenlive vlc curl htop at
 
 # Copy configuration files
 echo "Setting up base configuration..."
@@ -20,6 +20,7 @@ git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.themes
 cp -r zoobox/home/.themes/Penumbra ~/.themes/
   # GTK theme
 sudo cp -r zoobox/usr/share/themes/Crux /usr/share/themes/
+sudo cp zoobox/home/.gtkrc-2.0 /home/
 
 # Session setup
 echo "Setting up session settings..."
