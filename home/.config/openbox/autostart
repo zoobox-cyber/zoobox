@@ -22,7 +22,7 @@ xdotool windowsize $first_id 350 70
 xdotool windowmove $first_id 1550 0
 
 # CALENDAR
-terminator --execute bash -c "/home/ombelle_z/.config/openbox/cal-script.sh; exec bash" &
+terminator --execute bash -c "/home/zoobox/.config/openbox/cal-script.sh; exec bash" &
 sleep 0.5
 second_id=$(get_window_id)
 xdotool windowfocus $second_id

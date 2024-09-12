@@ -6,7 +6,7 @@ sudo apt update -y
 
 # Install core dependencies
 echo "Installing core dependencies..."
-sudo apt install -y git vim pcmanfm terminator openbox lxappearance xdotool
+sudo apt install -y git vim pcmanfm terminator openbox lxappearance xdotool ncal
 
 # Install utilities
 # echo "Installing utilities..."
