@@ -28,8 +28,8 @@ sudo update-grub
 sudo apt install lightdm
 sudo apt install lightdm-settings
 sudo cp -r zoobox/etc/lightdm /etc/lightdm
-sudo cp zoobox/usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
-	
+sudo cp zoobox/usr/share/images/desktop-base/black.jpg /usr/share/images/desktop-base/black.jpg
+sudo cp zoobox/usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf	
 
 # Final message
 echo "Installation completed. Please follow the next steps in the README file to finish the set up."
