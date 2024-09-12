@@ -42,7 +42,7 @@
 #       Set lightdm as needed
 #
 # Reboot to see all changes.
-# 
+#   On reboot, select openbox as window manager before login in.
 # 
 # 
 # 
