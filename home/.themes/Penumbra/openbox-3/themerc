@@ -10,8 +10,8 @@ menu.items.bg: flat
 menu.items.bg.color: #000000
 menu.items.text.color: #ffffff
 menu.items.active.bg: flat
-menu.items.active.bg.color: #ffffff
-menu.items.active.text.color: #000000
+menu.items.active.bg.color: #000000
+menu.items.active.text.color: #ffc421
 menu.items.disabled.text.color: #262626
 menu.items.justify: left
 menu.separator.padding.height: 2

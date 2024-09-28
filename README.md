@@ -11,8 +11,6 @@
 #      This will prevent issues downstream.
 #   
 #   Getting the files for the installation of zoobox
-#     sudo apt update
-#     sudo apt install git -y
 #     git clone https://github.com/zoobox-cyber/zoobox.git
 # 
 #   Executing the installation script
@@ -38,6 +36,7 @@
 #
 #   Setting lightdm
 #     Use lightdm-settings
+#     sudo lightdm-settings
 #       Select Crux as the theme and HighContrast for Icons
 #       Set lightdm as needed
 #
