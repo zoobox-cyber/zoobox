@@ -37,7 +37,7 @@
 #   Setting lightdm
 #     Use lightdm-settings
 #     sudo lightdm-settings
-#       Select Crux as the theme and HighContrast for Icons
+#       Select Crux as the theme, HighContrast for icons, and Nimbus Roman for font
 #       Set lightdm as needed
 #
 # Reboot to see all changes.
