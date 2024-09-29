@@ -1,4 +1,5 @@
-# Steps for setting up the system on a fresh debian install
+# Steps for setting up the system on a fresh debian install :
+# 
 #   For now, zoobox only has one locally supported theme 
 #   configuration. This configuration is dark mode optimized
 #   based on GNOME native to debian. Hence, the dark mode 
@@ -40,11 +41,42 @@
 #       Select Crux as the theme, HighContrast for icons, and Nimbus Roman for font
 #       Set lightdm as needed
 #
-# Reboot to see all changes.
-#   On reboot, select openbox as window manager before login in.
+#   Reboot to see all changes.
+#     On reboot, select openbox as window manager before login in.
+#
+#
+#
+# Adding users 
+#   The zoobox user serves as an administrator account with superuser priviledges.
+#   (change "newuser" for the new user's username):
+#   To add user accounts : 
+#     sudo adduser newuser
+#     set password for newuser
+#     answer the prompts to your liking
+#   To setup the home directory of newuser :
+#     cp /home/zoobox/.zoobox/adduser.sh /home/zoobox/.zoobox/newuser.sh
+#     nano /home/zoobox/.zoobox/newuser.sh
+#     change every "newuser" in the file for the actual new user's username 
+#     save and quit
+#     run the newuser.sh script
+#   New user session is ready.
+#
+#
+#   To give superuser priviledges to a user account
+#     run "sudo visudo" in the terminal with a root account
+#     in the "User priviledge specification" section, add the following line :
+#       username ALL=(ALL:ALL) ALL
+#       change "username" for the username of the new superuser 
 # 
 # 
 # 
- 
-
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
 
