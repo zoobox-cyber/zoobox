@@ -39,14 +39,14 @@ user-session=openbox" > /etc/lightdm/lightdm.conf.d/openbox.conf'
 
 # User session set up
 echo "Setting the user arcane..."
-sudo cp -r zoobox/home/zoobox/bio ~
-sudo cp -r zoobox/home/zoobox/chem ~
-sudo cp -r zoobox/home/zoobox/econ ~
-sudo cp -r zoobox/home/zoobox/info ~
-sudo cp -r zoobox/home/zoobox/phys ~
-sudo cp -r zoobox/home/zoobox/pol ~
-sudo cp -r zoobox/home/zoobox/psych ~
-sudo cp -r zoobox/home/zoobox/soc ~
+sudo cp -r zoobox/home/zoobox/bio ~/
+sudo cp -r zoobox/home/zoobox/chem ~/
+sudo cp -r zoobox/home/zoobox/econ ~/
+sudo cp -r zoobox/home/zoobox/info ~/
+sudo cp -r zoobox/home/zoobox/phys ~/
+sudo cp -r zoobox/home/zoobox/pol ~/
+sudo cp -r zoobox/home/zoobox/psych ~/
+sudo cp -r zoobox/home/zoobox/soc ~/
 
 # Final message
 echo "Installation completed. Please follow the next steps in the README file to finish the set up."
