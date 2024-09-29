@@ -57,6 +57,7 @@ sudo rmdir Music
 sudo rmdir Pictures
 sudo rmdir Public
 sudo rmdir Templates
+sudo rmdir Videos
 
 # Final message
 echo "Installation completed. Please follow the next steps in the README file to finish the set up."
