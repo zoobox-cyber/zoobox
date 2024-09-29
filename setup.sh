@@ -17,7 +17,7 @@ echo "Setting up base configuration..."
 cp -r zoobox/home/.config/* ~/.config/
   # Openbox theme
 git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.themes
-cp -r zoobox/home/.themes/Penumbra ~/.themes/
+cp zoobox/home/.themes/Penumbra/openbox-3/themerc /home/.themes/Penumbra/openbox-3/themerc
   # GTK theme
 sudo cp -r zoobox/usr/share/themes/Crux /usr/share/themes/
 sudo cp zoobox/home/.gtkrc-2.0 /home/
