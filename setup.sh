@@ -19,8 +19,8 @@ cp -r zoobox/home/.config/* ~/.config/
 git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.themes
 cp -r zoobox/home/.themes/Penumbra ~/.themes/
   # GTK theme
-sudo cp -r zoobox/usr/share/themes/Crux/gtk-2.0/gtkrc /usr/share/themes/Crux/gtk-2.0/gtkrc
-sudo cp zoobox/home/.gtkrc-2.0.mine /home
+sudo cp -r zoobox/usr/share/themes/Crux /usr/share/themes/
+sudo cp zoobox/home/.gtkrc-2.0 /home/
 
 # Session setup
 echo "Setting up session settings..."
