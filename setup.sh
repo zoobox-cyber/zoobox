@@ -28,7 +28,7 @@ sudo cp zoobox/boot/grub/black.jpg /boot/grub/
 sudo update-grub
 sudo apt install -y lightdm
 sudo apt install -y lightdm-settings
-sudo cp -r zoobox/etc/lightdm /etc/lightdm
+sudo cp -r zoobox/etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf
 sudo cp zoobox/usr/share/images/desktop-base/black.jpg /usr/share/images/desktop-base/black.jpg
 sudo cp zoobox/usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf /usr/share/lightdm/lightdm-gtk-greeter.conf.d/01_debian.conf
 
