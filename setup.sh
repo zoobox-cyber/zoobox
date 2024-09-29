@@ -48,6 +48,16 @@ sudo cp -r zoobox/home/zoobox/pol ~/
 sudo cp -r zoobox/home/zoobox/psych ~/
 sudo cp -r zoobox/home/zoobox/soc ~/
 
+sudo mv zoobox .zoobox
+
+sudo rmdir Desktop
+sudo rmdir Documents
+sudo rmdir Downloads
+sudo rmdir Music
+sudo rmdir Pictures
+sudo rmdir Public
+sudo rmdir Templates
+
 # Final message
 echo "Installation completed. Please follow the next steps in the README file to finish the set up."
 
